@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    padding: 30px;
+    margin-top: 20px;
+}
+.logo{
+    width: 5rem;
+    padding: 10px;
+}
+.taille{
+    background:linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../Images/1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 150px ;
+        margin-bottom: 5px;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.social-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.social-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* Défilement fluide */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Animation de fondu à l'apparition des sections */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+ 
